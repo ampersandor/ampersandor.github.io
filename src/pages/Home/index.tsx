@@ -11,7 +11,7 @@ const welcomeText = `I Am, ${AboutData.firstName}  ${AboutData.lastName}`;
 
 const Home = () => {
   const defaultOptions = {
-    loop: false,
+    loop: true,
     autoplay: true,
     animationData: lottieData,
     rendererSettings: {
