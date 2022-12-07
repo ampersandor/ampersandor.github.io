@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.4761ebf2.css",
-    "main.js": "/static/js/main.9f740b52.js",
-    "index.html": "/index.html",
-    "main.4761ebf2.css.map": "/static/css/main.4761ebf2.css.map",
-    "main.9f740b52.js.map": "/static/js/main.9f740b52.js.map"
+    "main.css": "/ampersandor.github.io/static/css/main.4761ebf2.css",
+    "main.js": "/ampersandor.github.io/static/js/main.9f740b52.js",
+    "index.html": "/ampersandor.github.io/index.html",
+    "main.4761ebf2.css.map": "/ampersandor.github.io/static/css/main.4761ebf2.css.map",
+    "main.9f740b52.js.map": "/ampersandor.github.io/static/js/main.9f740b52.js.map"
   },
   "entrypoints": [
     "static/css/main.4761ebf2.css",
