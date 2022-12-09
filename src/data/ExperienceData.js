@@ -1,36 +1,38 @@
 export const ExperienceData = [
   {
     title: 'Tashkent International School',
-    date: ' May 2019 _ Jul 2022',
+    date: 'July 2012 - May 2014',
     details: [
-      'Developed web applications using React, Redux, Next.js', 'Building a landing page with high speed and high scores in speed test gtmetrix and lighthouse, etc', 'Creating a web application (Windows, Android and iOS)', 'Create website with modern monorepo architecture', 'Collaborated closely with other developers on projects that require multiple people to complete tasks',
+      "Graduated Tashkent International School, Uzbekistan",
+      "Achieved Diploma programme under IB curriculum"
     ],
   },
   {
     title: 'Ghent University',
-    date: 'Sep 2019 - Jan 2022',
+    date: 'Sep 2014 - June 2016',
     details: [
-      'Worked with a team of 5 developers to create an e-commerce website using React and NodeJS',
-      'Built a dashboard for monitoring server performance using NodeJS, React, Material-ui',
-      'Created reusable components that were easily maintainable, reducing the time spent on future development by 50%',
+      'Studied Bioinformatics in Ghent University',
+    ],
+  },
+  {
+    title: 'Military Service in South Korea',
+    date: 'Sep 5 2016 - June 4 2018',
+    details: [
+      'serve as a drill-instructor in Republic of Korea Army'
     ],
   },
   {
     title: 'State University of NewYork in Korea',
     date: 'Sep 2019 - Jan 2022',
     details: [
-      'Worked with a team of 5 developers to create an e-commerce website using React and NodeJS',
-      'Built a dashboard for monitoring server performance using NodeJS, React, Material-ui',
-      'Created reusable components that were easily maintainable, reducing the time spent on future development by 50%',
+      'Major in Computer Science',
     ],
   },
   {
     title: 'SW developer in Seegene',
     date: 'Sep 2019 - Jan 2022',
     details: [
-      'Worked with a team of 5 developers to create an e-commerce website using React and NodeJS',
-      'Built a dashboard for monitoring server performance using NodeJS, React, Material-ui',
-      'Created reusable components that were easily maintainable, reducing the time spent on future development by 50%',
+      'Worked as a SW developer in Seegene Co.'
     ],
   }
 ];
