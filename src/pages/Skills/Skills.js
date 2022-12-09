@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { SkillsData } from "../../data/SkillsData";
-import { pageVariants, pageTransition } from "../../utils/FramerAnimation";
+import { pageVariants, pageTransition } from "../../css/FramerAnimation";
 import styles from "./skills.module.scss";
 
 const skillsOpen = "<skills>";

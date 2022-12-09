@@ -1,9 +1,4 @@
-interface LinkType {
-  title: string;
-  linkTo: string;
-}
-
-export const LinksData: LinkType[] = [
+export const LinksData = [
   {
     title: 'Home',
     linkTo: '/',

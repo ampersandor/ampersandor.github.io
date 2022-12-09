@@ -14,13 +14,7 @@ import {
 import { AiFillAndroid } from "react-icons/ai";
 import { ImGit } from "react-icons/im";
 
-interface SkillsType {
-  name: string;
-  icon: any;
-  link: string;
-}
-
-export const SkillsData: SkillsType[] = [
+export const SkillsData = [
   {
     name: "JavaScript",
     icon: <IoLogoJavascript color='#000000dc' />,

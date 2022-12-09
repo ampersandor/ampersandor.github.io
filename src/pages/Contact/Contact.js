@@ -2,9 +2,9 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import Lottie from "react-lottie";
 
-import { pageVariants, pageTransition } from "../../utils/FramerAnimation";
+import { pageVariants, pageTransition } from "../../css/FramerAnimation";
 import styles from "./contact.module.scss";
-import lottieData from "../../assets/lottie_email.json";
+import lottieData from "../../static/lottie_email.json";
 
 const contactOpen = "<Contact />";
 
@@ -15,11 +15,11 @@ const Contact = () => {
     message: "",
   });
 
-  const handleOnchange = (e: any) => {
+  const handleOnchange = (e) => {
     setContactData({ ...contactData, [e.target.name]: e.target.value });
   };
 
-  const handleOnsubmit = (e: any) => {
+  const handleOnsubmit = (e) => {
     e.preventDefault();
     console.log(contactData);
     setContactData({

@@ -1,13 +1,8 @@
 import { ImGithub, ImLinkedin } from "react-icons/im";
 import { SiLeetcode } from "react-icons/si";
 import { BsJournals } from "react-icons/bs";
-interface LinksType {
-  title: string;
-  icon: any;
-  link: string;
-}
 
-export const LinksData: LinksType[] = [
+export const LinksData = [
   {
     title: "GitHub",
     icon: <ImGithub color='#000000dc' />,

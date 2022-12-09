@@ -4,7 +4,7 @@ import Lottie from "react-lottie";
 import { AboutData } from "../../data/AboutData";
 import { LinksData } from "../../data/LinksData";
 import styles from "./home.module.scss";
-import lottieData from "../../assets/pig.json";
+import lottieData from "../../static/pig.json";
 
 
 const welcomeText = `I Am, ${AboutData.firstName}  ${AboutData.lastName}`;

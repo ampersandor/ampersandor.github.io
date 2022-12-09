@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 import { ProjectCard } from "../../components/ProjectCard/ProjectCard";
 import { ProjectsData } from "../../data/ProjectsData";
-import { pageVariants, pageTransition } from "../../utils/FramerAnimation";
+import { pageVariants, pageTransition } from "../../css/FramerAnimation";
 import styles from "./projects.module.scss";
 
 const projectsOpen = "<projects>";

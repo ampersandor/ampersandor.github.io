@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { EducationCard } from "../../components/EducationCard/EducationCard";
-import { pageVariants, pageTransition } from "../../utils/FramerAnimation";
+import { pageVariants, pageTransition } from "../../css/FramerAnimation";
 import { ExperienceData } from "../../data/ExperienceData";
 import styles from "./experience.module.scss";
 

@@ -1,17 +1,7 @@
-import { FC } from "react";
-
 import { LinkButton } from "./LinkButton";
 import styles from "./projectCard.module.scss";
 
-interface ProjectCardProps {
-  title: string;
-  description: string;
-  image: string;
-  GitHub: string;
-  hosted: string;
-}
-
-const ProjectCard: FC<ProjectCardProps> = (props) => {
+const ProjectCard = (props) => {
   return (
     <div className={styles.projectCard}>
       <div className={styles.imagewrapper}>
