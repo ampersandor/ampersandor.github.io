@@ -12,7 +12,7 @@
     transition: 0.3s all linear;
 
     &:hover {
-      box-shadow: 0 4px 10px 0 #808080;
+      box-shadow: 0 8px 40px 0 #feffff;
     }
 
     &::before {
@@ -64,7 +64,7 @@
       font-size: 18px;
       line-height: 1.4;
       letter-spacing: 0.2px;
-      color: $lightgrey;
+      color: lightgrey;
     }
   }
 }
