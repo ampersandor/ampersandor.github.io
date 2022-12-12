@@ -5,22 +5,22 @@ import { BsJournals } from "react-icons/bs";
 export const LinksData = [
   {
     title: "GitHub",
-    icon: <ImGithub color='#000000dc' />,
+    icon: <ImGithub color='#d4f0ffdc' />,
     link: "https://github.com/ampersandor",
   },
   {
     title: "LinkedIn",
-    icon: <ImLinkedin color='#000000dc' />,
+    icon: <ImLinkedin color='#d4f0ffdc' />,
     link: "https://www.linkedin.com/in/dong-hun-kim-4a3119168/",
   },
   {
     title: "Blog",
-    icon: <BsJournals color='#000000dc' />,
+    icon: <BsJournals color='#d4f0ffdc' />,
     link: "https://ampersandor.tistory.com/",
   },
   {
     title: "LeetCode",
-    icon: <SiLeetcode color='#000000dc' />,
+    icon: <SiLeetcode color='#d4f0ffdc' />,
     link: "https://leetcode.com/williamkim/",
   },
 ];

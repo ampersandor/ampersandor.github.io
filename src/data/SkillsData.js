@@ -1,98 +1,72 @@
 import { FaReact, FaNodeJs, FaHtml5, FaSass } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import {
-  SiRedux,
-  SiCss3,
-  SiNextdotjs,
-  SiTypescript,
-  SiPostman,
-  SiBootstrap,
-  SiMaterialui,
-  SiPwa,
-  SiElectron,
-} from "react-icons/si";
-import { AiFillAndroid } from "react-icons/ai";
+import { SiCss3, SiJfrog, SiJenkins, SiJava, SiPython, SiApachekafka, SiApachespark } from "react-icons/si";
 import { ImGit } from "react-icons/im";
-
+import {AiFillSchedule} from 'react-icons/ai';
 export const SkillsData = [
   {
-    name: "JavaScript",
-    icon: <IoLogoJavascript color='#000000dc' />,
+    name: "Java",
+    icon: <SiJava color='#ffffffdc' />,
     link: "https://www.javascript.com/",
   },
   {
-    name: "TypeScript",
-    icon: <SiTypescript color='#000000dc' />,
-    link: "https://www.typescriptlang.org/",
+    name: "Python",
+    icon: <SiPython color='#ffffffdc' />,
+    link: "https://www.javascript.com/",
+  },
+  {
+    name: "Kafka",
+    icon: <SiApachekafka color='#ffffffdc' />,
+    link: "https://www.javascript.com/",
+  },
+  {
+    name: "PBS",
+    icon: <AiFillSchedule color='#ffffffdc' />,
+    link: "https://www.javascript.com/",
+  },
+  {
+    name: "Spark",
+    icon: <SiApachespark color='#ffffffdc' />,
+    link: "https://www.javascript.com/",
+  },
+  {
+    name: "Jfrog",
+    icon: <SiJfrog color='#ffffffdc' />,
+    link: "https://www.javascript.com/",
+  },
+  {
+    name: "Jenkins",
+    icon: <SiJenkins color='#ffffffdc' />,
+    link: "https://www.javascript.com/",
   },
   {
     name: "React",
-    icon: <FaReact color='#000000dc' />,
+    icon: <FaReact color='#ffffffdc' />,
     link: "https://reactjs.org/",
   },
   {
-    name: "Next.js",
-    icon: <SiNextdotjs color='#000000dc' />,
-    link: "https://nextjs.org/",
-  },
-  {
-    name: "Redux",
-    icon: <SiRedux color='#000000dc' />,
-    link: "https://redux.js.org/",
-  },
-  {
     name: "Node.js",
-    icon: <FaNodeJs color='#000000dc' />,
+    icon: <FaNodeJs color='#ffffffdc' />,
     link: "https://nodejs.org/",
   },
   {
-    name: "Android",
-    icon: <AiFillAndroid color='#000000dc' />,
-    link: "https://developer.android.com/",
-  },
-  {
     name: "HTML",
-    icon: <FaHtml5 color='#000000dc' />,
+    icon: <FaHtml5 color='#ffffffdc' />,
     link: "https://www.w3schools.com/html/",
   },
   {
     name: "CSS",
-    icon: <SiCss3 color='#000000dc' />,
+    icon: <SiCss3 color='#ffffffdc' />,
     link: "https://www.w3schools.com/css/",
   },
   {
     name: "SASS",
-    icon: <FaSass color='#000000dc' />,
+    icon: <FaSass color='#ffffffdc' />,
     link: "https://sass-lang.com/",
   },
   {
-    name: "Bootstrap",
-    icon: <SiBootstrap color='#000000dc' />,
-    link: "https://getbootstrap.com/",
-  },
-  {
-    name: "Material-Ui",
-    icon: <SiMaterialui color='#000000dc' />,
-    link: "https://mui.com/",
-  },
-  {
-    name: "PWA",
-    icon: <SiPwa color='#000000dc' />,
-    link: "https://web.dev/progressive-web-apps/",
-  },
-  {
-    name: "Electron.js",
-    icon: <SiElectron color='#000000dc' />,
-    link: "https://www.electronjs.org/",
-  },
-  {
     name: "Git",
-    icon: <ImGit color='#000000dc' />,
+    icon: <ImGit color='#ffffffdc' />,
     link: "https://git-scm.com/",
-  },
-  {
-    name: "Postman",
-    icon: <SiPostman color='#000000dc' />,
-    link: "https://www.postman.com/",
-  },
+  }
 ];
