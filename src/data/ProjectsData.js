@@ -1,7 +1,7 @@
 export const ProjectsData = [
   {
     title: 'Health Tracker',
-    description: `Fastest Landing page built with React, Next Js and Styled Components. modern monorepo architecture. Minimal design`,
+    description: `Through MERN stack, the Health Tracker saves user's health and work-out activity`,
     image: 'https://erfjs.com/images/protfolio/my_portfolio/img-1.png',
     GitHub: '',
     hosted: 'https://erfjs.com',
