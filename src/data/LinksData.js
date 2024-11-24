@@ -11,16 +11,16 @@ export const LinksData = [
   {
     title: "LinkedIn",
     icon: <ImLinkedin color='#d4f0ffdc' />,
-    link: "https://www.linkedin.com/in/dong-hun-kim-4a3119168/",
+    link: "https://www.linkedin.com/in/ampersandor/",
   },
+  // {
+  //   title: "Blog",
+  //   icon: <BsJournals color='#d4f0ffdc' />,
+  //   link: "https://ampersandor.tistory.com/",
+  // },
   {
-    title: "Blog",
-    icon: <BsJournals color='#d4f0ffdc' />,
-    link: "https://ampersandor.tistory.com/",
-  },
-  {
-    title: "LeetCode",
-    icon: <SiLeetcode color='#d4f0ffdc' />,
-    link: "https://leetcode.com/williamkim/",
+    title: "Algorithm",
+    icon: <SiLeetcode color='yellow' />,
+    link: "https://ampersandor.notion.site/7b7b3151f61448588e7258f64cea0ce5?v=26334b58a0cb4e30a365352be1ed64db&pvs=73",
   },
 ];

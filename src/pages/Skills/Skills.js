@@ -21,14 +21,16 @@ const Skills = () => {
           <h3 className={styles.skillsopen}>{skillsOpen}</h3>
           <div className={styles.skills_content}>
             {SkillsData.map((item) => (
-              <a
-                key={item.name}
-                href={item.link}
-                target='_blank'
-                rel='noreferrer'
-              >
-                {item.icon}
-              </a>
+              <div key={item.name}>
+                <a
+                  href={item.link}
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  {item.icon}
+                </a>
+                <span>{item.name}</span>
+              </div>
             ))}
           </div>
           <h3 className={styles.skillsclose}>{skillsClose}</h3>

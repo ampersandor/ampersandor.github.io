@@ -1,6 +1,7 @@
 import { LinkButton } from "./LinkButton";
 import styles from "./projectCard.module.scss";
 
+
 const ProjectCard = (props) => {
   return (
     <div className={styles.projectCard}>
@@ -12,7 +13,7 @@ const ProjectCard = (props) => {
         <p>{props.description}</p>
         <div className={styles.buttons}>
           {props.GitHub && <LinkButton isGitHub={true} link={props.GitHub} />}
-          <LinkButton isGitHub={false} link={props.hosted} />
+          {props.hosted && <LinkButton isGitHub={false} link={props.hosted} />}
         </div>
       </div>
     </div>
